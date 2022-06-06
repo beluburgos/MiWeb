@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+   /* border: solid 1px #000;*/
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    font-size: 18px;
+}
+
+header{
+    background-image:url(bradcam.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    color: purple;
+}
+
+/*En la sgte etiqueta pude haber puesto #menu directamente, solo muestro una ruta mas especifica */
+
+#main-container header #menu{
+    padding: 50px 0;
+}
+
+header #menu ul{
+    margin: 0;
+    padding: 0;
+}
+header #menu ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+header #menu ul li a{
+    /*estilo de los links Home y Features*/
+    color: white;
+    text-decoration: none;
+}
+/*.text p:hover{
+    color: antiquewhite ;
+}
+:hover es un atributo de estado, el estilo se va a activar cuando el cursor pase por el elemento
+*/
+
+header #menu ul li a:hover{
+    text-decoration:underline;
+    color: purple ;
+}
+
+header #menu ul #logo{
+    margin-right: 40%;
+    margin-left: 100px;
+}
+
+/* ******************************* */
+
+#main-container header main{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+#main-container header main div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#main-container header main .text h1{
+    font-size: 50px;
+}
+
+#main-container header main .text p{
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+button{
+    background-color:#24d9e6;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 20px 25px;
+    margin: 60px auto;
+}
+
+button:hover{
+    background-color: #14929b;
+}
+
+#main-container header main .image{
+    text-align: right ;
+    width: 450px;
+}
+
+/* ******************************* */
+
+.layout{
+    width: 1250px;
+    margin: 250px auto;
+}
+
+.layout div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.layout h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.layout p{
+    padding: 20px 0;
+    line-height: 28px;
+}
+
+.layout-left .text{
+    width: 550px;
+}
+
+.layout-left .image{
+    width: 770;
+    text-align: right;
+}
+
+.layout-right .text{
+    width: 550px;
+}
+
+.layout-right .image{
+    width: 500px;
+    text-align: right;
+}
+
+footer{
+    background-color: #000;
+    padding: 150px 20px;
+    color: aliceblue;
+    text-align: center;
+}
